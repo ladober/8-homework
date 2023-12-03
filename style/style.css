@@ -1,0 +1,47 @@
+.container {
+    display: grid;
+    grid-template-columns: 1fr;
+    grid-gap: 20px;
+    grid-template-rows: 2.2fr 1.5fr 1.3fr 1.8fr 2.1fr;
+    grid-template-areas:
+    "item-1"
+    "item-2"
+    "item-3"
+    "item-4"
+    "item-5";
+}
+
+.item-1 {
+    background-color: #733FC8;
+    border-radius: 10px;
+    grid-area: item-1;
+    max-width: 327px;
+}
+
+.item-2 {
+    background-color: #48556A;
+    border-radius: 10px;
+    grid-area: item-2;
+    max-width: 327px;
+}
+
+.item-3 {
+    background-color: white;
+    border-radius: 10px;
+    grid-area: item-3;
+    max-width: 327px;
+}
+
+.item-4 {
+    background-color: #19202D;
+    border-radius: 10px;
+    grid-area: item-4;
+    max-width: 327px;
+}
+
+.item-5 {
+    background-color: white;
+    border-radius: 10px;
+    grid-area: item-5;
+    max-width: 327px;
+}
