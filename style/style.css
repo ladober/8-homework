@@ -24,7 +24,6 @@
     background-color: #733FC8;
     border-radius: 10px;
     grid-area: item-1;
-    max-width: 327px;
     box-shadow: 0px 0px 8px #48556A;
 }
 
@@ -74,7 +73,6 @@
     background-color: #48556A;
     border-radius: 10px;
     grid-area: item-2;
-    max-width: 327px;
     box-shadow: 0px 0px 8px #48556A;
 }
 
@@ -117,7 +115,6 @@
     background-color: white;
     border-radius: 10px;
     grid-area: item-3;
-    max-width: 327px;
     box-shadow: 0px 0px 8px #48556A;
 }
 
@@ -159,7 +156,6 @@
     background-color: #19202D;
     border-radius: 10px;
     grid-area: item-4;
-    max-width: 327px;
     box-shadow: 0px 0px 8px #48556A;
 }
 
@@ -202,7 +198,6 @@
     background-color: white;
     border-radius: 10px;
     grid-area: item-5;
-    max-width: 327px;
     box-shadow: 0px 0px 8px #48556A;
 }
 

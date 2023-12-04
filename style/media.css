@@ -1,3 +1,36 @@
 @media all and (min-width: 1440px) {
+    .container {
+        display: grid;
+        grid-template-columns: 1fr 1fr 1fr 1fr;
+        grid-gap: 20px;
+        grid-template-rows: 283px 283;
+        grid-template-areas:
+        "item-1 item-1 item-2 item-5"
+        "item-3 item-4 item-4 item-5";
+        padding: 30px;
+    }
+
+    .logo {
+        position: relative;
+        bottom: 20px;
+        left: 350px;
+    }
+    .item-1-description {
+        line-height: 24px;
+        max-width: 540px;
+    }
     
+    .item-1-description-2 {
+        max-width: 476px;
+    }
+
+    .item-5-description {
+        max-width: 190px;
+        line-height: 24px;
+    }
+
+    .item-5-description-2 {
+        max-width: 190px;
+        line-height: 18px;
+    }
 }
