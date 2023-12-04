@@ -9,39 +9,232 @@
     "item-3"
     "item-4"
     "item-5";
+    padding: 30px;
 }
+
+.logo {
+    position: relative;
+    bottom: 20px;
+    left: 30px;
+}
+
+/* item-1 */
 
 .item-1 {
     background-color: #733FC8;
     border-radius: 10px;
     grid-area: item-1;
     max-width: 327px;
+    box-shadow: 0px 0px 8px #48556A;
 }
+
+.item-1-details {
+    display: flex;
+    padding: 20px;
+}
+
+.item-1-details h1 {
+    color: white;
+    font-weight: 500;
+    font-size: 1.3rem;
+    padding: 0 10px;
+}
+.item-1-details span {
+    color: white;
+    font-weight: 500;
+    font-size: 1.1rem;
+    padding: 0 10px;
+}
+
+.item-1-description {
+    font-weight: 600;
+    font-size: 2rem;
+    color: white;
+    text-align: left;
+    padding-left: 25px;
+    position:relative;
+    bottom: 60px;
+    max-width: 263px;
+}
+
+.item-1-description-2 {
+    color:#CFCFCF;
+    font-weight: 500;
+    font-size: 1.3rem;
+    text-align: left;
+    padding-left: 25px;
+    line-height: 18px;
+    max-width: 200px;
+    padding-bottom: 20px;
+}
+
+/* item-2 */
 
 .item-2 {
     background-color: #48556A;
     border-radius: 10px;
     grid-area: item-2;
     max-width: 327px;
+    box-shadow: 0px 0px 8px #48556A;
 }
+
+.item-2-details {
+    display: flex;
+    padding: 20px;
+}
+
+.item-2-details h1 {
+    font-weight: 500;
+    font-size: 1.3rem;
+    color: white;
+    padding: 0 10px;
+}
+
+.item-2-details span {
+    font-weight: 500;
+    font-size: 1.1rem;
+    color: white;
+    padding: 0 10px;
+}
+.item-2-description {
+    font-weight: 600;
+    font-size: 2rem;
+    color: white;
+    padding: 0 25px;
+    max-width: 263px;
+}
+
+.item-2-description-2 {
+    font-weight: 500;
+    font-size: 1.3rem;
+    color: white;
+    padding: 30px 25px;
+}
+
+/* item-3 */
 
 .item-3 {
     background-color: white;
     border-radius: 10px;
     grid-area: item-3;
     max-width: 327px;
+    box-shadow: 0px 0px 8px #48556A;
 }
+
+.item-3-details {
+    display: flex;
+    padding: 20px;
+}
+
+.item-3-details h1 {
+    font-weight: 500;
+    font-size: 1.3rem;
+    color: #48556A;
+    padding: 0 10px;
+}
+
+.item-3-details span {
+    font-weight: 500;
+    font-size: 1.1rem;
+    color: #48556A;
+    padding: 0 10px;
+}
+
+.item-3-descriotion {
+    font-weight: 600;
+    font-size: 2rem;
+    color: #48556A;
+    padding: 0 25px;
+}
+
+.item-3-descriotion-2 {
+    font-weight: 500;
+    font-size: 1.3rem;
+    color: #48556A;
+    padding: 20px 25px;
+}
+/* item-4 */
 
 .item-4 {
     background-color: #19202D;
     border-radius: 10px;
     grid-area: item-4;
     max-width: 327px;
+    box-shadow: 0px 0px 8px #48556A;
 }
+
+.item-4-details {
+    display: flex;
+    padding: 20px;
+}
+
+.item-4-details h1 {
+    font-weight: 500;
+    font-size: 1.3rem;
+    color: white;
+    padding: 0 10px;
+}
+
+.item-4-details span {
+    font-weight: 500;
+    font-size: 1.1rem;
+    color: white;
+    padding: 0 10px;
+}
+
+.item-4-description {
+    font-weight: 600;
+    font-size: 2rem;
+    color: white;
+    padding: 0 25px;
+}
+
+.item-4-description-2 {
+    font-weight: 500;
+    font-size: 1.3rem;
+    color: white;
+    padding: 20px 25px;
+}
+
+/* item-5 */
 
 .item-5 {
     background-color: white;
     border-radius: 10px;
     grid-area: item-5;
     max-width: 327px;
+    box-shadow: 0px 0px 8px #48556A;
+}
+
+.item-5-details {
+    display: flex;
+    padding: 20px;
+}
+
+.item-5-details h1 {
+    font-weight: 500;
+    font-size: 1.3rem;
+    color: #48556A;
+    padding: 0 10px;
+}
+
+.item-5-details span {
+    font-weight: 500;
+    font-size: 1.1rem;
+    color: #48556A;
+    padding:  0 10px;
+}
+
+.item-5-description {
+    font-weight: 600;
+    font-size: 2rem;
+    color: #48556A;
+    padding: 0 25px;
+}
+
+.item-5-description-2 {
+    font-weight: 500;
+    font-size: 1.3rem;
+    color: #48556A;
+    padding: 20px 25px;
 }
