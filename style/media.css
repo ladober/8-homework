@@ -8,12 +8,13 @@
         "item-1 item-1 item-2 item-5"
         "item-3 item-4 item-4 item-5";
         padding: 30px;
+        max-width: 1110px;
     }
 
     .logo {
         position: relative;
         bottom: 20px;
-        left: 350px;
+        left: 250px;
     }
     .item-1-description {
         line-height: 24px;
@@ -33,4 +34,6 @@
         max-width: 190px;
         line-height: 18px;
     }
+
+    
 }
